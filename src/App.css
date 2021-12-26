@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar{
+  height: 50px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.listItem{
+  margin-right: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.avatar{
+  margin-top: 5px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
