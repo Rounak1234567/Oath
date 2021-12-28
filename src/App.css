@@ -1,11 +1,4 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -138,3 +131,93 @@ text-align: center;
   font-size: 18px;
   line-height: 24px;
 }
+
+.login{
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper{
+  width: 60%;
+  height: 75%;
+  display: flex;
+  align-items: center;
+}
+
+.left,.right{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.center{
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+.or{
+  margin-top: 180px;
+  margin-left: -21px;
+  border: 2px solid gray;
+  height: 20px;
+  border-radius: 50%;
+  padding: 10px;
+  color: gray;
+  background-color: white;
+  font-weight: bold;
+}
+
+.line{
+  width: 0.5px;
+  height: 50%;
+  background-color: green;
+  margin-top: 100px;
+}
+.loginButton{
+  width: 150px;
+  padding: 15px 25px;
+  border-radius: 5px;
+  color: beige;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.google{
+  background-color: brown;
+}
+.facebook{
+  background-color: blue;
+}
+.github{
+  background-color: black;
+}
+.icon{
+  width: 50px;
+  height: 20px;
+  margin-right: 5px;
+}
+input{
+  width: 200px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+.submit{
+  width: 200px;
+  background-color: blueviolet;
+  color: aliceblue;
+  border: none;
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+.loginTitle{
+  position: absolute;
+  top: 150px;
+  color: #282c34;
+}
+
